@@ -1,7 +1,7 @@
 # Configurations
-title:            《台灣俗語鹹酸甜第1冊》
-longtitle:        Tâi-oân Sio̍k-gí Kiâm-sng-tiⁿ (台灣俗語鹹酸甜)
-author:           Siau Lah-jih
+title:            《台文通訊30冬紀念特刊讀冊會》
+longtitle:        Tâi-bûn Thong-sìn 30 tang Kì-liām Te̍k-khan Tha̍k-chheh-hōe (台文通訊30冬紀念特刊讀冊會)
+author:           
 email:            am3kongchiau2@gmail.com
 description: >
   Build Jekyll site with the GitBook style.
@@ -10,7 +10,7 @@ version:          0.1
 gitbook_version:  3.2.3
 
 url:              ''
-baseurl:          'https://tzuhua.github.io/Kiamsngtinn'
+baseurl:          'https://tzuhua.github.io/TaiBunThongSinThakChhehHoe'
 rss:              RSS
 
 toc:
