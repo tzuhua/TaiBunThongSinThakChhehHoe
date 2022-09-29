@@ -1,0 +1,61 @@
+# Configurations
+title:            《台灣俗語鹹酸甜第1冊》
+longtitle:        Tâi-oân Sio̍k-gí Kiâm-sng-tiⁿ (台灣俗語鹹酸甜)
+author:           Siau Lah-jih
+email:            am3kongchiau2@gmail.com
+description: >
+  Build Jekyll site with the GitBook style.
+
+version:          0.1
+gitbook_version:  3.2.3
+
+url:              ''
+baseurl:          'https://tzuhua.github.io/Kiamsngtinn'
+rss:              RSS
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 2
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+  typographic_symbols:
+      ndash: --
+
+syntax_highlighter_style: colorful
+
+markdown_ext:     markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:        /:categories/:month-:day:output_ext
+
+exclude:
+  - _drafts
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jemoji
+  - jekyll-spaceship
+
+extra_css: extra_css.css
